@@ -1,0 +1,13 @@
+C:\Users\Jorge\Documents\ProyectoC#\PsiqueHelp2.0\PsiqueHelp.Core.Infreaestructure\bin\Debug\netcoreapp3.1\PsiqueHelp.Core.Infreaestructure.deps.json
+C:\Users\Jorge\Documents\ProyectoC#\PsiqueHelp2.0\PsiqueHelp.Core.Infreaestructure\bin\Debug\netcoreapp3.1\PsiqueHelp.Core.Infreaestructure.runtimeconfig.json
+C:\Users\Jorge\Documents\ProyectoC#\PsiqueHelp2.0\PsiqueHelp.Core.Infreaestructure\bin\Debug\netcoreapp3.1\PsiqueHelp.Core.Infreaestructure.runtimeconfig.dev.json
+C:\Users\Jorge\Documents\ProyectoC#\PsiqueHelp2.0\PsiqueHelp.Core.Infreaestructure\bin\Debug\netcoreapp3.1\PsiqueHelp.Core.Infreaestructure.dll
+C:\Users\Jorge\Documents\ProyectoC#\PsiqueHelp2.0\PsiqueHelp.Core.Infreaestructure\bin\Debug\netcoreapp3.1\PsiqueHelp.Core.Infreaestructure.pdb
+C:\Users\Jorge\Documents\ProyectoC#\PsiqueHelp2.0\PsiqueHelp.Core.Infreaestructure\obj\Debug\netcoreapp3.1\PsiqueHelp.Core.Infreaestructure.csproj.AssemblyReference.cache
+C:\Users\Jorge\Documents\ProyectoC#\PsiqueHelp2.0\PsiqueHelp.Core.Infreaestructure\obj\Debug\netcoreapp3.1\PsiqueHelp.Core.Infreaestructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jorge\Documents\ProyectoC#\PsiqueHelp2.0\PsiqueHelp.Core.Infreaestructure\obj\Debug\netcoreapp3.1\PsiqueHelp.Core.Infreaestructure.AssemblyInfoInputs.cache
+C:\Users\Jorge\Documents\ProyectoC#\PsiqueHelp2.0\PsiqueHelp.Core.Infreaestructure\obj\Debug\netcoreapp3.1\PsiqueHelp.Core.Infreaestructure.AssemblyInfo.cs
+C:\Users\Jorge\Documents\ProyectoC#\PsiqueHelp2.0\PsiqueHelp.Core.Infreaestructure\obj\Debug\netcoreapp3.1\PsiqueHelp.Core.Infreaestructure.csproj.CoreCompileInputs.cache
+C:\Users\Jorge\Documents\ProyectoC#\PsiqueHelp2.0\PsiqueHelp.Core.Infreaestructure\obj\Debug\netcoreapp3.1\PsiqueHelp.Core.Infreaestructure.dll
+C:\Users\Jorge\Documents\ProyectoC#\PsiqueHelp2.0\PsiqueHelp.Core.Infreaestructure\obj\Debug\netcoreapp3.1\PsiqueHelp.Core.Infreaestructure.pdb
+C:\Users\Jorge\Documents\ProyectoC#\PsiqueHelp2.0\PsiqueHelp.Core.Infreaestructure\obj\Debug\netcoreapp3.1\PsiqueHelp.Core.Infreaestructure.genruntimeconfig.cache

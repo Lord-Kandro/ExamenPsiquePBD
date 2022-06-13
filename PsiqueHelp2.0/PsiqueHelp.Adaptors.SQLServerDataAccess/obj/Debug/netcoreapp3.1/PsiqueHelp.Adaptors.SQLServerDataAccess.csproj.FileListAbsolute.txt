@@ -1,0 +1,16 @@
+C:\Users\Jorge\Documents\ProyectoC#\PsiqueHelp2.0\PsiqueHelp.Adaptors.SQLServerDataAccess\obj\Debug\netcoreapp3.1\PsiqueHelp.Adaptors.SQLServerDataAccess.csproj.AssemblyReference.cache
+C:\Users\Jorge\Documents\ProyectoC#\PsiqueHelp2.0\PsiqueHelp.Adaptors.SQLServerDataAccess\obj\Debug\netcoreapp3.1\PsiqueHelp.Adaptors.SQLServerDataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jorge\Documents\ProyectoC#\PsiqueHelp2.0\PsiqueHelp.Adaptors.SQLServerDataAccess\obj\Debug\netcoreapp3.1\PsiqueHelp.Adaptors.SQLServerDataAccess.AssemblyInfoInputs.cache
+C:\Users\Jorge\Documents\ProyectoC#\PsiqueHelp2.0\PsiqueHelp.Adaptors.SQLServerDataAccess\obj\Debug\netcoreapp3.1\PsiqueHelp.Adaptors.SQLServerDataAccess.AssemblyInfo.cs
+C:\Users\Jorge\Documents\ProyectoC#\PsiqueHelp2.0\PsiqueHelp.Adaptors.SQLServerDataAccess\obj\Debug\netcoreapp3.1\PsiqueHelp.Adaptors.SQLServerDataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Jorge\Documents\ProyectoC#\PsiqueHelp2.0\PsiqueHelp.Adaptors.SQLServerDataAccess\bin\Debug\netcoreapp3.1\PsiqueHelp.Adaptors.SQLServerDataAccess.deps.json
+C:\Users\Jorge\Documents\ProyectoC#\PsiqueHelp2.0\PsiqueHelp.Adaptors.SQLServerDataAccess\bin\Debug\netcoreapp3.1\PsiqueHelp.Adaptors.SQLServerDataAccess.dll
+C:\Users\Jorge\Documents\ProyectoC#\PsiqueHelp2.0\PsiqueHelp.Adaptors.SQLServerDataAccess\bin\Debug\netcoreapp3.1\PsiqueHelp.Adaptors.SQLServerDataAccess.pdb
+C:\Users\Jorge\Documents\ProyectoC#\PsiqueHelp2.0\PsiqueHelp.Adaptors.SQLServerDataAccess\bin\Debug\netcoreapp3.1\PsiqueHelp.Core.Domain.dll
+C:\Users\Jorge\Documents\ProyectoC#\PsiqueHelp2.0\PsiqueHelp.Adaptors.SQLServerDataAccess\bin\Debug\netcoreapp3.1\PsiqueHelp.Core.Domain.pdb
+C:\Users\Jorge\Documents\ProyectoC#\PsiqueHelp2.0\PsiqueHelp.Adaptors.SQLServerDataAccess\obj\Debug\netcoreapp3.1\PsiqueHelp.Adaptors.SQLServerDataAccess.csproj.CopyComplete
+C:\Users\Jorge\Documents\ProyectoC#\PsiqueHelp2.0\PsiqueHelp.Adaptors.SQLServerDataAccess\obj\Debug\netcoreapp3.1\PsiqueHelp.Adaptors.SQLServerDataAccess.dll
+C:\Users\Jorge\Documents\ProyectoC#\PsiqueHelp2.0\PsiqueHelp.Adaptors.SQLServerDataAccess\obj\Debug\netcoreapp3.1\PsiqueHelp.Adaptors.SQLServerDataAccess.pdb
+C:\Users\Jorge\Documents\ProyectoC#\PsiqueHelp2.0\PsiqueHelp.Adaptors.SQLServerDataAccess\bin\Debug\netcoreapp3.1\PsiqueHelp.Adaptors.SQLServerDataAccess.runtimeconfig.json
+C:\Users\Jorge\Documents\ProyectoC#\PsiqueHelp2.0\PsiqueHelp.Adaptors.SQLServerDataAccess\bin\Debug\netcoreapp3.1\PsiqueHelp.Adaptors.SQLServerDataAccess.runtimeconfig.dev.json
+C:\Users\Jorge\Documents\ProyectoC#\PsiqueHelp2.0\PsiqueHelp.Adaptors.SQLServerDataAccess\obj\Debug\netcoreapp3.1\PsiqueHelp.Adaptors.SQLServerDataAccess.genruntimeconfig.cache
