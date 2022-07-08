@@ -19,8 +19,8 @@ namespace PsiqueHelp.Adaptors.SQLServerDataAccess.Entities
                 .WithOne(pd => pd.login_users)//un sólo login -viene de models/Psy_Da
                 .HasPrincipalKey(lu => lu.Id_Login);
             builder
-                .HasMany(lu => lu.userLog)//muchos usuarios -viene de models/LoginUsers
-                .WithOne(ud => ud.userlog)//un sólo login -viene de models/UserDa
+                .HasMany(lu => lu.userLog)
+                .WithOne(ud => ud.login_userId_Login)//un sólo login -viene de models/UserDa
                 .HasPrincipalKey(lu => lu.Id_Login);
         }
     }

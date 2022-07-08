@@ -11,7 +11,7 @@ namespace PsiqueHelp.Core.Domain.Models
     {
         public Guid Id_Login { get; set; }
         public string email { get; set; }
-        public string password { get; set; }
+        public string password { get; set; } 
         public DateTime created_at { get; set; }
         public DateTime updated_at { get; set; }
         public List<Psy_Da> psyLog { get; set; } //muchos psicologos

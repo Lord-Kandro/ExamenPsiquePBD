@@ -195,13 +195,25 @@ namespace PsiqueHelp.Adaptors.SQLServerDataAccess.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
+                    b.Property<int>("Cell")
+                        .HasColumnType("int");
+
                     b.Property<string>("City")
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("Created_at")
+                        .HasColumnType("datetime2");
 
                     b.Property<string>("Department")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<Guid?>("Id_Login")
+                    b.Property<string>("Email")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("IdPerson")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<Guid>("Id_Login")
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("Name")
@@ -210,29 +222,17 @@ namespace PsiqueHelp.Adaptors.SQLServerDataAccess.Migrations
                     b.Property<string>("Nick")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("Password")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Surname")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<DateTime>("Updated_at")
+                        .HasColumnType("datetime2");
+
                     b.Property<int>("age")
                         .HasColumnType("int");
-
-                    b.Property<int>("cell")
-                        .HasColumnType("int");
-
-                    b.Property<DateTime>("created_at")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("email")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("idPerson")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("password")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<DateTime>("updated_at")
-                        .HasColumnType("datetime2");
 
                     b.HasKey("Id_UserDa");
 
@@ -327,9 +327,11 @@ namespace PsiqueHelp.Adaptors.SQLServerDataAccess.Migrations
 
             modelBuilder.Entity("PsiqueHelp.Core.Domain.Models.UserDa", b =>
                 {
-                    b.HasOne("PsiqueHelp.Core.Domain.Models.LoginUsers", "userlog")
+                    b.HasOne("PsiqueHelp.Core.Domain.Models.LoginUsers", "login_userId_Login")
                         .WithMany("userLog")
-                        .HasForeignKey("Id_Login");
+                        .HasForeignKey("Id_Login")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 
             modelBuilder.Entity("PsiqueHelp.Core.Domain.Models.comments", b =>

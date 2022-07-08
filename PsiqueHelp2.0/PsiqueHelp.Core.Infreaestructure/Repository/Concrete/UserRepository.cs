@@ -10,7 +10,7 @@ namespace PsiqueHelp.Core.Infreaestructure.Repository.Concrete
 {
     public class UserDaRepository : IBaseRepository<UserDa, Guid>
     {
-        private PsiqueDB db;
+        private readonly PsiqueDB db;
         public UserDaRepository(PsiqueDB db)
         {
             this.db = db;
@@ -62,12 +62,12 @@ namespace PsiqueHelp.Core.Infreaestructure.Repository.Concrete
                 selectedUser.Nick = user.Nick;
                 selectedUser.City = user.City;
                 selectedUser.Department = user.Department;
-                selectedUser.email = user.email;
-                selectedUser.password = user.password;
-                selectedUser.cell = user.cell;
-                selectedUser.idPerson = user.idPerson;
+                selectedUser.Email = user.Email;
+                selectedUser.Password = user.Password;
+                selectedUser.Cell = user.Cell;
+                selectedUser.IdPerson = user.IdPerson;
                 selectedUser.age = user.age;
-                selectedUser.updated_at = DateTime.Now;
+                selectedUser.Updated_at = DateTime.Now;
                 //modifica los valores con los nuevos ingresados
                 
                 db.Entry(selectedUser).State =

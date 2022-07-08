@@ -53,7 +53,7 @@ namespace PsiqueHelp.Ports.API.Controllers
             user.Id_UserDa = id;
             service.Update(user);
 
-            return Ok("Editado exitosamente");
+            return Ok("El registro de usuario fue editado exitosamente");
         }
 
 

@@ -11,3 +11,16 @@ C:\Users\Jorge\Documents\ProyectoC#\PsiqueHelp2.0\PsiqueHelp.Core.Domain\bin\Deb
 C:\Users\Jorge\Documents\ProyectoC#\PsiqueHelp2.0\PsiqueHelp.Core.Domain\obj\Debug\netcoreapp3.1\PsiqueHelp.Core.Domain.dll
 C:\Users\Jorge\Documents\ProyectoC#\PsiqueHelp2.0\PsiqueHelp.Core.Domain\obj\Debug\netcoreapp3.1\PsiqueHelp.Core.Domain.pdb
 C:\Users\Jorge\Documents\ProyectoC#\PsiqueHelp2.0\PsiqueHelp.Core.Domain\obj\Debug\netcoreapp3.1\PsiqueHelp.Core.Domain.genruntimeconfig.cache
+C:\Users\Jorge\Repositorios\ProyectPsique\PsiqueHelp2.0\PsiqueHelp.Core.Domain\bin\Debug\netcoreapp3.1\PsiqueHelp.Core.Domain.deps.json
+C:\Users\Jorge\Repositorios\ProyectPsique\PsiqueHelp2.0\PsiqueHelp.Core.Domain\bin\Debug\netcoreapp3.1\PsiqueHelp.Core.Domain.runtimeconfig.json
+C:\Users\Jorge\Repositorios\ProyectPsique\PsiqueHelp2.0\PsiqueHelp.Core.Domain\bin\Debug\netcoreapp3.1\PsiqueHelp.Core.Domain.runtimeconfig.dev.json
+C:\Users\Jorge\Repositorios\ProyectPsique\PsiqueHelp2.0\PsiqueHelp.Core.Domain\bin\Debug\netcoreapp3.1\PsiqueHelp.Core.Domain.dll
+C:\Users\Jorge\Repositorios\ProyectPsique\PsiqueHelp2.0\PsiqueHelp.Core.Domain\bin\Debug\netcoreapp3.1\PsiqueHelp.Core.Domain.pdb
+C:\Users\Jorge\Repositorios\ProyectPsique\PsiqueHelp2.0\PsiqueHelp.Core.Domain\obj\Debug\netcoreapp3.1\PsiqueHelp.Core.Domain.csproj.AssemblyReference.cache
+C:\Users\Jorge\Repositorios\ProyectPsique\PsiqueHelp2.0\PsiqueHelp.Core.Domain\obj\Debug\netcoreapp3.1\PsiqueHelp.Core.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jorge\Repositorios\ProyectPsique\PsiqueHelp2.0\PsiqueHelp.Core.Domain\obj\Debug\netcoreapp3.1\PsiqueHelp.Core.Domain.AssemblyInfoInputs.cache
+C:\Users\Jorge\Repositorios\ProyectPsique\PsiqueHelp2.0\PsiqueHelp.Core.Domain\obj\Debug\netcoreapp3.1\PsiqueHelp.Core.Domain.AssemblyInfo.cs
+C:\Users\Jorge\Repositorios\ProyectPsique\PsiqueHelp2.0\PsiqueHelp.Core.Domain\obj\Debug\netcoreapp3.1\PsiqueHelp.Core.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Jorge\Repositorios\ProyectPsique\PsiqueHelp2.0\PsiqueHelp.Core.Domain\obj\Debug\netcoreapp3.1\PsiqueHelp.Core.Domain.dll
+C:\Users\Jorge\Repositorios\ProyectPsique\PsiqueHelp2.0\PsiqueHelp.Core.Domain\obj\Debug\netcoreapp3.1\PsiqueHelp.Core.Domain.pdb
+C:\Users\Jorge\Repositorios\ProyectPsique\PsiqueHelp2.0\PsiqueHelp.Core.Domain\obj\Debug\netcoreapp3.1\PsiqueHelp.Core.Domain.genruntimeconfig.cache
