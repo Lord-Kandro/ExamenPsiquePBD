@@ -19,10 +19,9 @@ namespace PsiqueHelp.Core.Domain.Models
         public string password { get; set; }
         public int cell { get; set; }
         public string idPerson { get; set; }
+        public Guid Id_Login { get; set; }
         public int Register_S { get; set; }
         public int folio { get; set; }
-        public Guid Id_Login { get; set; }
-        public Guid ConTer_Id { get; set; }
         public int volume { get; set; }
         [ForeignKey("ConTer_id")]
         public ConTer conterp { get; set; }//llave hacia EconTer -un Contenido

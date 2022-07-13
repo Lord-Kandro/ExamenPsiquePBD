@@ -14,7 +14,6 @@ namespace PsiqueHelp.Core.Domain.Models
         public string video { get; set; }
         public string music { get; set; }
         public string image { get; set; }
-        public Guid ConTer_Id { get; set; }
         public DateTime created_at { get; set; }
         public DateTime updated_at { get; set; }
 

@@ -12,8 +12,6 @@ namespace PsiqueHelp.Core.Domain.Models
     {
         public Guid Id_Forum { get; set; }
         public string topic { get; set; }
-        public Guid Id_UserDa { get; set; }
-        public Guid Id_User_Psy { get; set; }
         [ForeignKey("Id_UserDa")]
         public UserDa user { get; set; }//llave hacia EuserDa - un usuario
         [ForeignKey("Id_User_Psy")]

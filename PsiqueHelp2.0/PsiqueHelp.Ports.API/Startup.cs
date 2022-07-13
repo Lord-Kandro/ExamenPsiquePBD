@@ -28,7 +28,8 @@ namespace PsiqueHelp.Ports.API
             services.AddControllers();
             services.AddCors(options =>
                 options.AddDefaultPolicy(builder =>
-                    builder.WithOrigins("http://localhost:5001", "http://localhost:5000")
+                    builder 
+                        .AllowAnyOrigin()
                         .AllowAnyHeader()
                         .AllowAnyMethod()
                 )

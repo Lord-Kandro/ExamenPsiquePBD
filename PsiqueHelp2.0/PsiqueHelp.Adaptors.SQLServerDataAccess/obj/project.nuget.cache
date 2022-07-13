@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "BKSPUywYgKvEz49IFa6P1DXxLAgs2TYS6QidsOYO1L6h7HLOGT7rRmbX7sF6BvnKEbOHx5pX+rSOKSwYgG9bBQ==",
+  "dgSpecHash": "05sfLA5sY4PxBMXA5HRvqz4fyodqjLtcHg1r4DHhsDJEeGhIz00B9t8L9bdPVM2oMCaSXBsmyHncZzzq6s/pRg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Jorge\\Repositorios\\ProyectPsique\\PsiqueHelp2.0\\PsiqueHelp.Adaptors.SQLServerDataAccess\\PsiqueHelp.Adaptors.SQLServerDataAccess.csproj",
   "expectedPackageFiles": [

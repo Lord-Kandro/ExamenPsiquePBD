@@ -12,7 +12,6 @@ namespace PsiqueHelp.Core.Domain.Models
         public Guid id_Note { get; set; }
         public string title { get; set; }
         public string description { get; set; }
-        public Guid Id_UserDa { get; set; }
         public DateTime date { get; set; }
         [ForeignKey("Id_UserDa")]
         public UserDa user { get; set; }//llave hacia Euser

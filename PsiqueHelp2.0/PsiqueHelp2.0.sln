@@ -17,7 +17,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PsiqueHelp.Core.Infreastruc
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PsiqueHelp.Adaptors.SQLServerDataAccess", "PsiqueHelp.Adaptors.SQLServerDataAccess\PsiqueHelp.Adaptors.SQLServerDataAccess.csproj", "{77950ECF-8718-4499-86C3-ACFED4393264}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PsiqueHelp.Ports.API", "PsiqueHelp.Ports.API\PsiqueHelp.Ports.API.csproj", "{FB42444A-5D00-4EB1-8D2A-EBD297402946}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PsiqueHelp.Ports.API", "PsiqueHelp.Ports.API\PsiqueHelp.Ports.API.csproj", "{FB42444A-5D00-4EB1-8D2A-EBD297402946}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
