@@ -48,10 +48,10 @@ namespace PsiqueHelp.Adaptors.SQLServerDataAccess.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<Guid?>("Id_UserDa")
+                    b.Property<Guid>("Id_UserDa")
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<Guid?>("Id_User_Psy")
+                    b.Property<Guid>("Id_User_Psy")
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<DateTime>("created_at")
@@ -98,6 +98,12 @@ namespace PsiqueHelp.Adaptors.SQLServerDataAccess.Migrations
 
                     b.HasKey("Id_Login");
 
+                    b.HasIndex("Id_UserDa")
+                        .IsUnique();
+
+                    b.HasIndex("Id_User_Psy")
+                        .IsUnique();
+
                     b.ToTable("tb_LoginUsers");
                 });
 
@@ -107,7 +113,7 @@ namespace PsiqueHelp.Adaptors.SQLServerDataAccess.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<Guid?>("Id_UserDa")
+                    b.Property<Guid>("Id_UserDa")
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<DateTime>("created_at")
@@ -135,19 +141,17 @@ namespace PsiqueHelp.Adaptors.SQLServerDataAccess.Migrations
             modelBuilder.Entity("PsiqueHelp.Core.Domain.Models.Psy_Da", b =>
                 {
                     b.Property<Guid>("Id_User_Psy")
+                        .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("City")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<Guid?>("ConTer_id")
+                    b.Property<Guid>("ConTer_id")
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("Department")
                         .HasColumnType("nvarchar(max)");
-
-                    b.Property<Guid>("Id_Login")
-                        .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("Name")
                         .HasColumnType("nvarchar(max)");
@@ -176,9 +180,6 @@ namespace PsiqueHelp.Adaptors.SQLServerDataAccess.Migrations
                     b.Property<string>("idPerson")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<Guid?>("login_usersId_Login")
-                        .HasColumnType("uniqueidentifier");
-
                     b.Property<string>("password")
                         .HasColumnType("nvarchar(max)");
 
@@ -192,14 +193,13 @@ namespace PsiqueHelp.Adaptors.SQLServerDataAccess.Migrations
 
                     b.HasIndex("ConTer_id");
 
-                    b.HasIndex("login_usersId_Login");
-
                     b.ToTable("tb_PsyDa");
                 });
 
             modelBuilder.Entity("PsiqueHelp.Core.Domain.Models.UserDa", b =>
                 {
                     b.Property<Guid>("Id_UserDa")
+                        .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<int>("Cell")
@@ -219,9 +219,6 @@ namespace PsiqueHelp.Adaptors.SQLServerDataAccess.Migrations
 
                     b.Property<string>("IdPerson")
                         .HasColumnType("nvarchar(max)");
-
-                    b.Property<Guid>("Id_Login")
-                        .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("Name")
                         .HasColumnType("nvarchar(max)");
@@ -276,7 +273,7 @@ namespace PsiqueHelp.Adaptors.SQLServerDataAccess.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<Guid?>("ConTer_id")
+                    b.Property<Guid>("ConTer_id")
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<DateTime>("created_at")
@@ -305,42 +302,46 @@ namespace PsiqueHelp.Adaptors.SQLServerDataAccess.Migrations
                 {
                     b.HasOne("PsiqueHelp.Core.Domain.Models.UserDa", "user")
                         .WithMany("forum")
-                        .HasForeignKey("Id_UserDa");
+                        .HasForeignKey("Id_UserDa")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.HasOne("PsiqueHelp.Core.Domain.Models.Psy_Da", "psyda")
                         .WithMany("forum")
-                        .HasForeignKey("Id_User_Psy");
+                        .HasForeignKey("Id_User_Psy")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("PsiqueHelp.Core.Domain.Models.LoginUsers", b =>
+                {
+                    b.HasOne("PsiqueHelp.Core.Domain.Models.UserDa", "loguser")
+                        .WithOne("LoginUsers")
+                        .HasForeignKey("PsiqueHelp.Core.Domain.Models.LoginUsers", "Id_UserDa")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("PsiqueHelp.Core.Domain.Models.Psy_Da", "logpsy")
+                        .WithOne("userpsy")
+                        .HasForeignKey("PsiqueHelp.Core.Domain.Models.LoginUsers", "Id_User_Psy")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 
             modelBuilder.Entity("PsiqueHelp.Core.Domain.Models.Notes", b =>
                 {
                     b.HasOne("PsiqueHelp.Core.Domain.Models.UserDa", "user")
                         .WithMany("notes")
-                        .HasForeignKey("Id_UserDa");
+                        .HasForeignKey("Id_UserDa")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 
             modelBuilder.Entity("PsiqueHelp.Core.Domain.Models.Psy_Da", b =>
                 {
                     b.HasOne("PsiqueHelp.Core.Domain.Models.ConTer", "conterp")
                         .WithMany("psycon")
-                        .HasForeignKey("ConTer_id");
-
-                    b.HasOne("PsiqueHelp.Core.Domain.Models.LoginUsers", "userpsy")
-                        .WithOne("logpsy")
-                        .HasForeignKey("PsiqueHelp.Core.Domain.Models.Psy_Da", "Id_User_Psy")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("PsiqueHelp.Core.Domain.Models.LoginUsers", "login_users")
-                        .WithMany()
-                        .HasForeignKey("login_usersId_Login");
-                });
-
-            modelBuilder.Entity("PsiqueHelp.Core.Domain.Models.UserDa", b =>
-                {
-                    b.HasOne("PsiqueHelp.Core.Domain.Models.LoginUsers", "LoginUsers")
-                        .WithOne("loguser")
-                        .HasForeignKey("PsiqueHelp.Core.Domain.Models.UserDa", "Id_UserDa")
+                        .HasForeignKey("ConTer_id")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });
@@ -356,7 +357,7 @@ namespace PsiqueHelp.Adaptors.SQLServerDataAccess.Migrations
                     b.HasOne("PsiqueHelp.Core.Domain.Models.UserDa", "user")
                         .WithMany("Comments")
                         .HasForeignKey("Id_UserDa")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.NoAction)
                         .IsRequired();
                 });
 
@@ -364,7 +365,9 @@ namespace PsiqueHelp.Adaptors.SQLServerDataAccess.Migrations
                 {
                     b.HasOne("PsiqueHelp.Core.Domain.Models.ConTer", "contenido")
                         .WithMany("mediums")
-                        .HasForeignKey("ConTer_id");
+                        .HasForeignKey("ConTer_id")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 #pragma warning restore 612, 618
         }

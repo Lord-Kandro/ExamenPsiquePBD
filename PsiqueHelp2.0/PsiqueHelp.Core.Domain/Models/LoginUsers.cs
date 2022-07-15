@@ -15,13 +15,15 @@ namespace PsiqueHelp.Core.Domain.Models
         public string password { get; set; }
         public DateTime created_at { get; set; }
         public DateTime updated_at { get; set; }
+
         public Guid Id_UserDa { get; set; }
-        [ForeignKey("Id_Login")]
+        [ForeignKey("Id_UserDa")]
         public UserDa loguser { get; set; }
         public Guid Id_User_Psy { get; set; }
-        [ForeignKey ("Id_User_Psy")]
+        [ForeignKey("Id_User_Psy")]
         public Psy_Da logpsy { get; set; }
         
+
     }
 
 }

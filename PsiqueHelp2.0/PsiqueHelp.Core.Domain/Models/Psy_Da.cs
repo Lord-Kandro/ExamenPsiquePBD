@@ -25,13 +25,12 @@ namespace PsiqueHelp.Core.Domain.Models
         public int volume { get; set; }
         public DateTime created_at { get; set; }
         public DateTime updated_at { get; set; }
+        public Guid ConTer_id { get; set; }
         [ForeignKey("ConTer_id")]
         public ConTer conterp { get; set; }//llave hacia EconTer -un Contenido
-        public Guid Id_Login { get; set; }
-
-        [ForeignKey("Id_Login")]
+        
         public LoginUsers userpsy { get; set; }
-        public LoginUsers login_users { get; set; }//llave hacia Elogin -un login
+
        
         public List<Forum> forum { get; set; }//llave hacia EpsyDa - muchos foros
     }

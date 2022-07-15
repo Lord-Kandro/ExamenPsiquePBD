@@ -13,6 +13,7 @@ namespace PsiqueHelp.Core.Domain.Models
         public string title { get; set; }
         public string description { get; set; }
         public DateTime date { get; set; }
+        public Guid Id_UserDa { get; set; }
         [ForeignKey("Id_UserDa")]
         public UserDa user { get; set; }//llave hacia Euser
 

@@ -17,12 +17,12 @@ namespace PsiqueHelp.Adaptors.SQLServerDataAccess.Entities
             builder
                 .HasMany(ct => ct.mediums)//muchos medios viene de models/conTer
                 .WithOne(me => me.contenido)//un contenido viene de models/mediums
-                .HasPrincipalKey(ct => ct.ConTer_id);
+               ;
 
             builder
                 .HasMany(ct => ct.psycon)//muchos psicologos viene de models/ConTer
                 .WithOne(pd => pd.conterp)//un contenido viene de models/Psy_Da
-                .HasPrincipalKey(ct => ct.ConTer_id);
+                ;
         }
         
     }

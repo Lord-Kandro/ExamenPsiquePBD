@@ -16,8 +16,8 @@ namespace PsiqueHelp.Adaptors.SQLServerDataAccess.Entities
 
             builder
                 .HasMany(pd => pd.forum)//muchos foros viene de -models/psyDa
-                .WithOne(f => f.psyda)// un psicologo viene de -models/Forum
-                .HasPrincipalKey(pd => pd.Id_User_Psy);
+                .WithOne(f => f.psyda);// un psicologo viene de -models/Forum
+           
             builder
                 .HasOne(pd => pd.userpsy)
                 .WithOne(lu => lu.logpsy);

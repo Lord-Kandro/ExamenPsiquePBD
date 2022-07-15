@@ -16,19 +16,20 @@ namespace PsiqueHelp.Adaptors.SQLServerDataAccess.Entities
 
             builder
                 .HasMany(ud => ud.Comments)//muchos comentarios-viene de models/UserDa
-                .WithOne(c => c.user)//un usuario-viene de models/comments
-                .HasPrincipalKey(ud => ud.Id_UserDa);
+                .WithOne(c => c.user);//un usuario-viene de models/comments
+               
             builder
                 .HasMany(ud => ud.forum)//muchos foros -viene de models/UserDa
-                .WithOne(f => f.user)//un usuario - viene de Models/Forum
-                .HasPrincipalKey(ud => ud.Id_UserDa);
+                .WithOne(f => f.user);//un usuario - viene de Models/Forum
+                
             builder
                 .HasMany(ud => ud.notes)//muchas notas -viene de models/UserDa
-                .WithOne(n => n.user)//un usuario -viene de models/UserDa
-                .HasPrincipalKey(ud => ud.Id_UserDa);
+                .WithOne(n => n.user);//un usuario -viene de models/UserDa
+                
             builder
                 .HasOne(ud => ud.LoginUsers)
                 .WithOne(lu => lu.loguser);
+                
 
         }
     }

@@ -12,9 +12,12 @@ namespace PsiqueHelp.Core.Domain.Models
     {
         public Guid Id_Forum { get; set; }
         public string topic { get; set; }
+        public Guid Id_UserDa { get; set; }
         [ForeignKey("Id_UserDa")]
         public UserDa user { get; set; }//llave hacia EuserDa - un usuario
+        public Guid Id_User_Psy { get; set; }
         [ForeignKey("Id_User_Psy")]
+
         public Psy_Da psyda { get; set; }//llave hacia EpsyDa - un psicologo
         public List<comments> Coments { get; set; }//llave que es llamada en Eforum /muchos comentarios
 

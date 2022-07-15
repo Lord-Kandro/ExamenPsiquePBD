@@ -16,6 +16,7 @@ namespace PsiqueHelp.Core.Domain.Models
         public string image { get; set; }
         public DateTime created_at { get; set; }
         public DateTime updated_at { get; set; }
+        public Guid ConTer_id { get; set; }
 
         [ForeignKey("ConTer_id")]
         public ConTer contenido { get; set; }

@@ -17,8 +17,8 @@ namespace PsiqueHelp.Adaptors.SQLServerDataAccess.Entities
 
             builder
                 .HasMany(f => f.Coments)//muchos comentarios - viene de models/forum
-                .WithOne(c => c.CommentsForum)//un foro - viene de models/comments
-                .HasPrincipalKey(f => f.Id_Forum);
+                .WithOne(c => c.CommentsForum);//un foro - viene de models/comments
+                
 
         }
     }

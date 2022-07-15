@@ -27,8 +27,8 @@ namespace PsiqueHelp.Core.Domain.Models
         public List<comments> Comments { get; set; }//llave que va hacia Euser- un usuario
         public List<Forum> forum { get; set; }//lave hacia Euser- un usuario
         public List<Notes> notes { get; set; }//llave hacia Euser- un usuario
-        public Guid Id_Login { get; set; }
-        [ForeignKey("Id_Login")]
+        
+        
         public LoginUsers LoginUsers { get; set; }
         
     }

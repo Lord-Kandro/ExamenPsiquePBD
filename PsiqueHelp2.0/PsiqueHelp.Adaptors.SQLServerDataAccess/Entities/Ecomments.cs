@@ -16,7 +16,7 @@ namespace PsiqueHelp.Adaptors.SQLServerDataAccess.Entities
 
             builder
                 .HasOne(c => c.user)//un usuario viene de -models/comments
-                .WithMany(ud => ud.Comments);//muchos comentarios viene de -models/userDa
+                .WithMany(ud => ud.Comments).OnDelete(DeleteBehavior.NoAction);//muchos comentarios viene de -models/userDa
             builder
                 .HasOne(c => c.CommentsForum)//un foro viene de -models/comments
                 .WithMany(f => f.Coments);//muchos comentarios viene de -models/forum
