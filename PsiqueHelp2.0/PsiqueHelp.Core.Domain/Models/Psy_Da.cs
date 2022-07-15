@@ -19,16 +19,20 @@ namespace PsiqueHelp.Core.Domain.Models
         public string password { get; set; }
         public int cell { get; set; }
         public string idPerson { get; set; }
-        public Guid Id_Login { get; set; }
+       
         public int Register_S { get; set; }
         public int folio { get; set; }
         public int volume { get; set; }
-        [ForeignKey("ConTer_id")]
-        public ConTer conterp { get; set; }//llave hacia EconTer -un Contenido
-        [ForeignKey("Id_Login")]
-        public LoginUsers login_users { get; set; }//llave hacia Elogin -un login
         public DateTime created_at { get; set; }
         public DateTime updated_at { get; set; }
+        [ForeignKey("ConTer_id")]
+        public ConTer conterp { get; set; }//llave hacia EconTer -un Contenido
+        public Guid Id_Login { get; set; }
+
+        [ForeignKey("Id_Login")]
+        public LoginUsers userpsy { get; set; }
+        public LoginUsers login_users { get; set; }//llave hacia Elogin -un login
+       
         public List<Forum> forum { get; set; }//llave hacia EpsyDa - muchos foros
     }
 

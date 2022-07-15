@@ -14,14 +14,8 @@ namespace PsiqueHelp.Adaptors.SQLServerDataAccess.Entities
             builder.ToTable("tb_LoginUsers");
             builder.HasKey(lu => lu.Id_Login);
 
-            builder
-                .HasMany(lu => lu.psyLog)//muchos psicologos - viene de models/LoginUsers
-                .WithOne(pd => pd.login_users)//un sólo login -viene de models/Psy_Da
-                .HasPrincipalKey(lu => lu.Id_Login);
-            builder
-                .HasMany(lu => lu.userLog)
-                .WithOne(ud => ud.login_userId_Login)//un sólo login -viene de models/UserDa
-                .HasPrincipalKey(lu => lu.Id_Login);
+           
+            
         }
     }
 }

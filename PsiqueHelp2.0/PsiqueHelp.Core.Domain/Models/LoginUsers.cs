@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
 
 using Microsoft.EntityFrameworkCore;
@@ -14,8 +15,13 @@ namespace PsiqueHelp.Core.Domain.Models
         public string password { get; set; }
         public DateTime created_at { get; set; }
         public DateTime updated_at { get; set; }
-        public List<Psy_Da> psyLog { get; set; } //muchos psicologos
-        public List<UserDa> userLog { get; set; }//muchos usuarios
+        public Guid Id_UserDa { get; set; }
+        [ForeignKey("Id_Login")]
+        public UserDa loguser { get; set; }
+        public Guid Id_User_Psy { get; set; }
+        [ForeignKey ("Id_User_Psy")]
+        public Psy_Da logpsy { get; set; }
+        
     }
 
 }

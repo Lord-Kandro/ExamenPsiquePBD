@@ -19,16 +19,18 @@ namespace PsiqueHelp.Core.Domain.Models
         public string Password { get; set; }
         public int Cell { get; set; }
         public string IdPerson { get; set; }
-
-        public Guid Id_Login   { get; set; }
         public int age { get; set; }
-        [ForeignKey("Id_Login")]
-        public LoginUsers login_userId_Login { get; set; }
+
+
         public DateTime Created_at { get; set; }
         public DateTime Updated_at { get; set; }
         public List<comments> Comments { get; set; }//llave que va hacia Euser- un usuario
         public List<Forum> forum { get; set; }//lave hacia Euser- un usuario
         public List<Notes> notes { get; set; }//llave hacia Euser- un usuario
+        public Guid Id_Login { get; set; }
+        [ForeignKey("Id_Login")]
+        public LoginUsers LoginUsers { get; set; }
+        
     }
 
 }

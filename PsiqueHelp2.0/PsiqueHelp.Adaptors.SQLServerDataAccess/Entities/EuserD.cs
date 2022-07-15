@@ -26,6 +26,10 @@ namespace PsiqueHelp.Adaptors.SQLServerDataAccess.Entities
                 .HasMany(ud => ud.notes)//muchas notas -viene de models/UserDa
                 .WithOne(n => n.user)//un usuario -viene de models/UserDa
                 .HasPrincipalKey(ud => ud.Id_UserDa);
+            builder
+                .HasOne(ud => ud.LoginUsers)
+                .WithOne(lu => lu.loguser);
+
         }
     }
 }
