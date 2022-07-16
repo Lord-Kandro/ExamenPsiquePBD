@@ -45,6 +45,7 @@ namespace PsiqueHelp.Core.Infreastructure.Repository.Concrete
 
         public void saveAllChanges()
         {
+
             db.SaveChanges();
         }
 

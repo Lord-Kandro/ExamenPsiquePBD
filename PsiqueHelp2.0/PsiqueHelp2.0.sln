@@ -19,6 +19,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PsiqueHelp.Adaptors.SQLServ
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PsiqueHelp.Ports.API", "PsiqueHelp.Ports.API\PsiqueHelp.Ports.API.csproj", "{FB42444A-5D00-4EB1-8D2A-EBD297402946}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "reports", "reports", "{32E5095B-26E7-4780-83E9-4AE182C6AFC5}"
+	ProjectSection(SolutionItems) = preProject
+		reports\Default.aspx = reports\Default.aspx
+		reports\Default.aspx.cs = reports\Default.aspx.cs
+		reports\DiarioDelPaciente.rpt = reports\DiarioDelPaciente.rpt
+		reports\RegistrosUsuarios.rpt = reports\RegistrosUsuarios.rpt
+		reports\vwd.webinfo = reports\vwd.webinfo
+		reports\Web.config = reports\Web.config
+		reports\Web.Debug.config = reports\Web.Debug.config
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

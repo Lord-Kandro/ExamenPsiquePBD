@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jorge\\Repositorios\\ProyectPsique\\PsiqueHelp2.0\\PsiqueHelp.Core.Infreaestructure\\PsiqueHelp.Core.Infreastructure.csproj": {}
+    "C:\\Users\\Brandon Fonseca\\Desktop\\ProyectPsique\\PsiqueHelp2.0\\PsiqueHelp.Core.Infreaestructure\\PsiqueHelp.Core.Infreastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jorge\\Repositorios\\ProyectPsique\\PsiqueHelp2.0\\PsiqueHelp.Adaptors.SQLServerDataAccess\\PsiqueHelp.Adaptors.SQLServerDataAccess.csproj": {
+    "C:\\Users\\Brandon Fonseca\\Desktop\\ProyectPsique\\PsiqueHelp2.0\\PsiqueHelp.Adaptors.SQLServerDataAccess\\PsiqueHelp.Adaptors.SQLServerDataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jorge\\Repositorios\\ProyectPsique\\PsiqueHelp2.0\\PsiqueHelp.Adaptors.SQLServerDataAccess\\PsiqueHelp.Adaptors.SQLServerDataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\Brandon Fonseca\\Desktop\\ProyectPsique\\PsiqueHelp2.0\\PsiqueHelp.Adaptors.SQLServerDataAccess\\PsiqueHelp.Adaptors.SQLServerDataAccess.csproj",
         "projectName": "PsiqueHelp.Adaptors.SQLServerDataAccess",
-        "projectPath": "C:\\Users\\Jorge\\Repositorios\\ProyectPsique\\PsiqueHelp2.0\\PsiqueHelp.Adaptors.SQLServerDataAccess\\PsiqueHelp.Adaptors.SQLServerDataAccess.csproj",
-        "packagesPath": "C:\\Users\\Jorge\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jorge\\Repositorios\\ProyectPsique\\PsiqueHelp2.0\\PsiqueHelp.Adaptors.SQLServerDataAccess\\obj\\",
+        "projectPath": "C:\\Users\\Brandon Fonseca\\Desktop\\ProyectPsique\\PsiqueHelp2.0\\PsiqueHelp.Adaptors.SQLServerDataAccess\\PsiqueHelp.Adaptors.SQLServerDataAccess.csproj",
+        "packagesPath": "C:\\Users\\Brandon Fonseca\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Brandon Fonseca\\Desktop\\ProyectPsique\\PsiqueHelp2.0\\PsiqueHelp.Adaptors.SQLServerDataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Jorge\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Brandon Fonseca\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Jorge\\Repositorios\\ProyectPsique\\PsiqueHelp2.0\\PsiqueHelp.Core.Domain\\PsiqueHelp.Core.Domain.csproj": {
-                "projectPath": "C:\\Users\\Jorge\\Repositorios\\ProyectPsique\\PsiqueHelp2.0\\PsiqueHelp.Core.Domain\\PsiqueHelp.Core.Domain.csproj"
+              "C:\\Users\\Brandon Fonseca\\Desktop\\ProyectPsique\\PsiqueHelp2.0\\PsiqueHelp.Core.Domain\\PsiqueHelp.Core.Domain.csproj": {
+                "projectPath": "C:\\Users\\Brandon Fonseca\\Desktop\\ProyectPsique\\PsiqueHelp2.0\\PsiqueHelp.Core.Domain\\PsiqueHelp.Core.Domain.csproj"
               }
             }
           }
@@ -70,21 +70,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Jorge\\Repositorios\\ProyectPsique\\PsiqueHelp2.0\\PsiqueHelp.Core.Domain\\PsiqueHelp.Core.Domain.csproj": {
+    "C:\\Users\\Brandon Fonseca\\Desktop\\ProyectPsique\\PsiqueHelp2.0\\PsiqueHelp.Core.Domain\\PsiqueHelp.Core.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jorge\\Repositorios\\ProyectPsique\\PsiqueHelp2.0\\PsiqueHelp.Core.Domain\\PsiqueHelp.Core.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Brandon Fonseca\\Desktop\\ProyectPsique\\PsiqueHelp2.0\\PsiqueHelp.Core.Domain\\PsiqueHelp.Core.Domain.csproj",
         "projectName": "PsiqueHelp.Core.Domain",
-        "projectPath": "C:\\Users\\Jorge\\Repositorios\\ProyectPsique\\PsiqueHelp2.0\\PsiqueHelp.Core.Domain\\PsiqueHelp.Core.Domain.csproj",
-        "packagesPath": "C:\\Users\\Jorge\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jorge\\Repositorios\\ProyectPsique\\PsiqueHelp2.0\\PsiqueHelp.Core.Domain\\obj\\",
+        "projectPath": "C:\\Users\\Brandon Fonseca\\Desktop\\ProyectPsique\\PsiqueHelp2.0\\PsiqueHelp.Core.Domain\\PsiqueHelp.Core.Domain.csproj",
+        "packagesPath": "C:\\Users\\Brandon Fonseca\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Brandon Fonseca\\Desktop\\ProyectPsique\\PsiqueHelp2.0\\PsiqueHelp.Core.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Jorge\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Brandon Fonseca\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -136,21 +136,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Jorge\\Repositorios\\ProyectPsique\\PsiqueHelp2.0\\PsiqueHelp.Core.Infreaestructure\\PsiqueHelp.Core.Infreastructure.csproj": {
+    "C:\\Users\\Brandon Fonseca\\Desktop\\ProyectPsique\\PsiqueHelp2.0\\PsiqueHelp.Core.Infreaestructure\\PsiqueHelp.Core.Infreastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jorge\\Repositorios\\ProyectPsique\\PsiqueHelp2.0\\PsiqueHelp.Core.Infreaestructure\\PsiqueHelp.Core.Infreastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Brandon Fonseca\\Desktop\\ProyectPsique\\PsiqueHelp2.0\\PsiqueHelp.Core.Infreaestructure\\PsiqueHelp.Core.Infreastructure.csproj",
         "projectName": "PsiqueHelp.Core.Infreastructure",
-        "projectPath": "C:\\Users\\Jorge\\Repositorios\\ProyectPsique\\PsiqueHelp2.0\\PsiqueHelp.Core.Infreaestructure\\PsiqueHelp.Core.Infreastructure.csproj",
-        "packagesPath": "C:\\Users\\Jorge\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jorge\\Repositorios\\ProyectPsique\\PsiqueHelp2.0\\PsiqueHelp.Core.Infreaestructure\\obj\\",
+        "projectPath": "C:\\Users\\Brandon Fonseca\\Desktop\\ProyectPsique\\PsiqueHelp2.0\\PsiqueHelp.Core.Infreaestructure\\PsiqueHelp.Core.Infreastructure.csproj",
+        "packagesPath": "C:\\Users\\Brandon Fonseca\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Brandon Fonseca\\Desktop\\ProyectPsique\\PsiqueHelp2.0\\PsiqueHelp.Core.Infreaestructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Jorge\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Brandon Fonseca\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -164,11 +164,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Jorge\\Repositorios\\ProyectPsique\\PsiqueHelp2.0\\PsiqueHelp.Adaptors.SQLServerDataAccess\\PsiqueHelp.Adaptors.SQLServerDataAccess.csproj": {
-                "projectPath": "C:\\Users\\Jorge\\Repositorios\\ProyectPsique\\PsiqueHelp2.0\\PsiqueHelp.Adaptors.SQLServerDataAccess\\PsiqueHelp.Adaptors.SQLServerDataAccess.csproj"
+              "C:\\Users\\Brandon Fonseca\\Desktop\\ProyectPsique\\PsiqueHelp2.0\\PsiqueHelp.Adaptors.SQLServerDataAccess\\PsiqueHelp.Adaptors.SQLServerDataAccess.csproj": {
+                "projectPath": "C:\\Users\\Brandon Fonseca\\Desktop\\ProyectPsique\\PsiqueHelp2.0\\PsiqueHelp.Adaptors.SQLServerDataAccess\\PsiqueHelp.Adaptors.SQLServerDataAccess.csproj"
               },
-              "C:\\Users\\Jorge\\Repositorios\\ProyectPsique\\PsiqueHelp2.0\\PsiqueHelp.Core.Domain\\PsiqueHelp.Core.Domain.csproj": {
-                "projectPath": "C:\\Users\\Jorge\\Repositorios\\ProyectPsique\\PsiqueHelp2.0\\PsiqueHelp.Core.Domain\\PsiqueHelp.Core.Domain.csproj"
+              "C:\\Users\\Brandon Fonseca\\Desktop\\ProyectPsique\\PsiqueHelp2.0\\PsiqueHelp.Core.Domain\\PsiqueHelp.Core.Domain.csproj": {
+                "projectPath": "C:\\Users\\Brandon Fonseca\\Desktop\\ProyectPsique\\PsiqueHelp2.0\\PsiqueHelp.Core.Domain\\PsiqueHelp.Core.Domain.csproj"
               }
             }
           }
@@ -209,7 +209,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
